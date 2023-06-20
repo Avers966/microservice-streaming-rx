@@ -1,0 +1,51 @@
+server:
+  port: 8080
+
+spring:
+  main:
+    web-application-type: reactive
+  boot:
+    admin:
+      client:
+        enabled: false
+  cloud:
+    kubernetes:
+      config:
+        enabled: false
+      reload:
+        monitoring-config-maps: false
+  cache:
+    type: simple
+  redis.host: redis
+  data:
+    redis:
+      repositories.enabled: false
+  autoconfigure:
+    exclude: org.springframework.boot.autoconfigure.data.redis.RedisAutoConfiguration
+
+
+kafka:
+  bootstrap-servers: 82.202.214.42:9094
+#  bootstrap-servers: localhost:9092
+  consumer:
+    group-id: streaming.1
+    concurrency: 1
+    max-poll-interval-ms: 30000
+    spring-json-trusted-packages: ru.skillbox.diplom.group35.*
+  producer:
+    retries: 1
+  topic:
+    partition-count: 1
+    replication-factor: 1
+    reply-account: t.account.online
+    reply-dialog: t.dialog.message.in
+    request-dialog: t.dialog.message.out
+    request-notification: event.streaming
+
+app:
+  public-routes: /api/v1/auth/**,/v3/api-docs/**,/swagger-ui/**
+
+
+logging:
+  level:
+    org.springframework: info
