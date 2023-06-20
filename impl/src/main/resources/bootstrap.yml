@@ -1,0 +1,26 @@
+spring:
+  application:
+    name: microservice-streaming-rx
+
+  cloud:
+    kubernetes:
+      secrets:
+        sources:
+          - name: microservice-streaming-rx
+      config:
+        sources:
+          - name: library-core
+          - name: microservice-streaming-rx
+      reload:
+        enabled: true
+
+management:
+  endpoint:
+    restart:
+      enabled: true
+    health:
+      enabled: true
+    info:
+      enabled: true
+    prometheus:
+      enabled: true

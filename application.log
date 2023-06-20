@@ -1,0 +1,739 @@
+2023-06-08 14:29:27.454  INFO 1420 --- [main] r.s.d.g.m.streaming.rx.impl.Application  : Starting Application using Java 17.0.3.1 on DESKTOP-5CAN66E with PID 1420 (D:\Skillbox\Diplom2\Code\microservice-streaming-rx\impl\target\classes started by CronyPest in D:\Skillbox\Diplom2\Code\microservice-streaming-rx)
+2023-06-08 14:29:27.457  INFO 1420 --- [main] r.s.d.g.m.streaming.rx.impl.Application  : The following 1 profile is active: "local"
+2023-06-08 14:29:28.297  INFO 1420 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-06-08 14:29:28.308  INFO 1420 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-06-08 14:29:28.308  INFO 1420 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-06-08 14:29:28.395  INFO 1420 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-06-08 14:29:28.395  INFO 1420 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 887 ms
+2023-06-08 14:29:28.685  WARN 1420 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: ac8ddb2c-8d5f-45d9-9802-69c83a575280
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-06-08 14:29:28.762  INFO 1420 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@47c7a9e5, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7951c3a2, org.springframework.security.web.context.SecurityContextPersistenceFilter@2e13f304, org.springframework.security.web.header.HeaderWriterFilter@5b47731f, org.springframework.security.web.csrf.CsrfFilter@1f2f0109, org.springframework.security.web.authentication.logout.LogoutFilter@27443560, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@414f87a9, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@7f7b6639, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@4ed9f7b1, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@65bb6275, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3d24420b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6274670b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2d119405, org.springframework.security.web.session.SessionManagementFilter@40c2ce52, org.springframework.security.web.access.ExceptionTranslationFilter@cedee22, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@388623ad]
+2023-06-08 14:29:28.796  INFO 1420 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-06-08 14:29:28.803  INFO 1420 --- [main] r.s.d.g.m.streaming.rx.impl.Application  : Started Application in 1.938 seconds (JVM running for 3.057)
+2023-06-08 14:34:05.506  INFO 8740 --- [main] r.s.d.g.m.streaming.rx.impl.Application  : Starting Application using Java 17.0.3.1 on DESKTOP-5CAN66E with PID 8740 (D:\Skillbox\Diplom2\Code\microservice-streaming-rx\impl\target\classes started by CronyPest in D:\Skillbox\Diplom2\Code\microservice-streaming-rx)
+2023-06-08 14:34:05.509  INFO 8740 --- [main] r.s.d.g.m.streaming.rx.impl.Application  : The following 1 profile is active: "local"
+2023-06-08 14:34:06.570  INFO 8740 --- [main] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port 8080
+2023-06-08 14:34:06.578  INFO 8740 --- [main] r.s.d.g.m.streaming.rx.impl.Application  : Started Application in 1.469 seconds (JVM running for 2.005)
+2023-06-08 14:35:24.887  INFO 292 --- [main] r.s.d.g.m.streaming.rx.impl.Application  : Starting Application using Java 17.0.3.1 on DESKTOP-5CAN66E with PID 292 (D:\Skillbox\Diplom2\Code\microservice-streaming-rx\impl\target\classes started by CronyPest in D:\Skillbox\Diplom2\Code\microservice-streaming-rx)
+2023-06-08 14:35:24.890  INFO 292 --- [main] r.s.d.g.m.streaming.rx.impl.Application  : The following 1 profile is active: "local"
+2023-06-08 14:35:26.046  INFO 292 --- [main] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port 8080
+2023-06-08 14:35:26.058  INFO 292 --- [main] r.s.d.g.m.streaming.rx.impl.Application  : Started Application in 1.767 seconds (JVM running for 2.506)
+2023-06-08 14:35:51.653  INFO 15556 --- [main] r.s.d.g.m.streaming.rx.impl.Application  : Starting Application using Java 17.0.3.1 on DESKTOP-5CAN66E with PID 15556 (D:\Skillbox\Diplom2\Code\microservice-streaming-rx\impl\target\classes started by CronyPest in D:\Skillbox\Diplom2\Code\microservice-streaming-rx)
+2023-06-08 14:35:51.656  INFO 15556 --- [main] r.s.d.g.m.streaming.rx.impl.Application  : The following 1 profile is active: "local"
+2023-06-08 14:35:52.665  INFO 15556 --- [main] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port 8080
+2023-06-08 14:35:52.672  INFO 15556 --- [main] r.s.d.g.m.streaming.rx.impl.Application  : Started Application in 1.426 seconds (JVM running for 1.963)
+2023-06-08 14:37:56.358 ERROR 15880 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to bind properties under 'spring.main' to org.springframework.boot.SpringApplication:
+
+    Property: spring.main
+    Value: ""
+    Origin: class path resource [application-local.yml] - 2:8
+    Reason: org.springframework.core.convert.ConverterNotFoundException: No converter found capable of converting from type [java.lang.String] to type [org.springframework.boot.SpringApplication]
+
+Action:
+
+Update your application's configuration
+
+2023-06-08 14:38:04.173  INFO 14120 --- [main] r.s.d.g.m.streaming.rx.impl.Application  : Starting Application using Java 17.0.3.1 on DESKTOP-5CAN66E with PID 14120 (D:\Skillbox\Diplom2\Code\microservice-streaming-rx\impl\target\classes started by CronyPest in D:\Skillbox\Diplom2\Code\microservice-streaming-rx)
+2023-06-08 14:38:04.177  INFO 14120 --- [main] r.s.d.g.m.streaming.rx.impl.Application  : The following 1 profile is active: "local"
+2023-06-08 14:38:05.198  INFO 14120 --- [main] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port 8080
+2023-06-08 14:38:05.206  INFO 14120 --- [main] r.s.d.g.m.streaming.rx.impl.Application  : Started Application in 1.418 seconds (JVM running for 1.861)
+2023-06-08 15:23:25.753  INFO 16284 --- [main] r.s.d.g.m.streaming.rx.impl.Application  : Starting Application using Java 11.0.18 on DESKTOP-5CAN66E with PID 16284 (D:\Skillbox\Diplom2\Code\microservice-streaming-rx\impl\target\classes started by CronyPest in D:\Skillbox\Diplom2\Code\microservice-streaming-rx)
+2023-06-08 15:23:25.755  INFO 16284 --- [main] r.s.d.g.m.streaming.rx.impl.Application  : The following 1 profile is active: "local"
+2023-06-08 15:23:26.699  INFO 16284 --- [main] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port 8080
+2023-06-08 15:23:26.707  INFO 16284 --- [main] r.s.d.g.m.streaming.rx.impl.Application  : Started Application in 1.333 seconds (JVM running for 1.98)
+2023-06-08 15:23:38.352 ERROR 16284 --- [reactor-http-nio-2] o.s.w.s.adapter.HttpWebHandlerAdapter    : [1b5d28e4-1] Error [java.lang.NullPointerException] for HTTP GET "/api/v1/streaming/ws", but ServerHttpResponse already committed (200 OK)
+2023-06-08 15:23:38.358 ERROR 16284 --- [reactor-http-nio-2] r.n.http.server.HttpServerOperations     : [1b5d28e4-1, L:/127.0.0.1:8080 - R:/127.0.0.1:4264] Error finishing response. Closing connection
+
+java.lang.NullPointerException: null
+	at org.springframework.web.reactive.socket.server.upgrade.ReactorNettyRequestUpgradeStrategy.lambda$null$0(ReactorNettyRequestUpgradeStrategy.java:176) ~[spring-webflux-5.3.25.jar:5.3.25]
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	*__checkpoint ⇢ HTTP GET "/api/v1/streaming/ws" [ExceptionHandlingWebHandler]
+Original Stack Trace:
+		at org.springframework.web.reactive.socket.server.upgrade.ReactorNettyRequestUpgradeStrategy.lambda$null$0(ReactorNettyRequestUpgradeStrategy.java:176) ~[spring-webflux-5.3.25.jar:5.3.25]
+		at reactor.netty.http.server.HttpServerOperations.lambda$withWebsocketSupport$15(HttpServerOperations.java:892) ~[reactor-netty-http-1.0.27.jar:1.0.27]
+		at reactor.core.publisher.FluxDoOnEach$DoOnEachSubscriber.onComplete(FluxDoOnEach.java:214) ~[reactor-core-3.4.26.jar:3.4.26]
+		at reactor.core.publisher.Operators.complete(Operators.java:137) ~[reactor-core-3.4.26.jar:3.4.26]
+		at reactor.core.publisher.MonoEmpty.subscribe(MonoEmpty.java:46) ~[reactor-core-3.4.26.jar:3.4.26]
+		at reactor.core.publisher.InternalMonoOperator.subscribe(InternalMonoOperator.java:64) ~[reactor-core-3.4.26.jar:3.4.26]
+		at reactor.core.publisher.MonoDefer.subscribe(MonoDefer.java:52) ~[reactor-core-3.4.26.jar:3.4.26]
+		at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.subscribeNext(MonoIgnoreThen.java:240) ~[reactor-core-3.4.26.jar:3.4.26]
+		at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.onComplete(MonoIgnoreThen.java:203) ~[reactor-core-3.4.26.jar:3.4.26]
+		at reactor.core.publisher.MonoIgnoreElements$IgnoreElementsSubscriber.onComplete(MonoIgnoreElements.java:89) ~[reactor-core-3.4.26.jar:3.4.26]
+		at reactor.core.publisher.FluxConcatArray$ConcatArraySubscriber.onComplete(FluxConcatArray.java:230) ~[reactor-core-3.4.26.jar:3.4.26]
+		at reactor.core.publisher.FluxConcatArray.subscribe(FluxConcatArray.java:78) ~[reactor-core-3.4.26.jar:3.4.26]
+		at reactor.core.publisher.Mono.subscribe(Mono.java:4490) ~[reactor-core-3.4.26.jar:3.4.26]
+		at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.subscribeNext(MonoIgnoreThen.java:263) ~[reactor-core-3.4.26.jar:3.4.26]
+		at reactor.core.publisher.MonoIgnoreThen.subscribe(MonoIgnoreThen.java:51) ~[reactor-core-3.4.26.jar:3.4.26]
+		at reactor.core.publisher.Mono.subscribe(Mono.java:4490) ~[reactor-core-3.4.26.jar:3.4.26]
+		at reactor.core.publisher.FluxFlatMap.trySubscribeScalarMap(FluxFlatMap.java:203) ~[reactor-core-3.4.26.jar:3.4.26]
+		at reactor.core.publisher.MonoFlatMap.subscribeOrReturn(MonoFlatMap.java:53) ~[reactor-core-3.4.26.jar:3.4.26]
+		at reactor.core.publisher.Mono.subscribe(Mono.java:4475) ~[reactor-core-3.4.26.jar:3.4.26]
+		at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.subscribeNext(MonoIgnoreThen.java:263) ~[reactor-core-3.4.26.jar:3.4.26]
+		at reactor.core.publisher.MonoIgnoreThen.subscribe(MonoIgnoreThen.java:51) ~[reactor-core-3.4.26.jar:3.4.26]
+		at reactor.core.publisher.MonoFlatMap$FlatMapMain.onNext(MonoFlatMap.java:157) ~[reactor-core-3.4.26.jar:3.4.26]
+		at reactor.core.publisher.FluxSwitchIfEmpty$SwitchIfEmptySubscriber.onNext(FluxSwitchIfEmpty.java:74) ~[reactor-core-3.4.26.jar:3.4.26]
+		at reactor.core.publisher.MonoNext$NextSubscriber.onNext(MonoNext.java:82) ~[reactor-core-3.4.26.jar:3.4.26]
+		at reactor.core.publisher.FluxConcatMap$ConcatMapImmediate.innerNext(FluxConcatMap.java:282) ~[reactor-core-3.4.26.jar:3.4.26]
+		at reactor.core.publisher.FluxConcatMap$ConcatMapInner.onNext(FluxConcatMap.java:863) ~[reactor-core-3.4.26.jar:3.4.26]
+		at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.onNext(FluxMapFuseable.java:129) ~[reactor-core-3.4.26.jar:3.4.26]
+		at reactor.core.publisher.Operators$ScalarSubscription.request(Operators.java:2400) ~[reactor-core-3.4.26.jar:3.4.26]
+		at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.request(FluxMapFuseable.java:171) ~[reactor-core-3.4.26.jar:3.4.26]
+		at reactor.core.publisher.Operators$MultiSubscriptionSubscriber.set(Operators.java:2196) ~[reactor-core-3.4.26.jar:3.4.26]
+		at reactor.core.publisher.Operators$MultiSubscriptionSubscriber.onSubscribe(Operators.java:2070) ~[reactor-core-3.4.26.jar:3.4.26]
+		at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.onSubscribe(FluxMapFuseable.java:96) ~[reactor-core-3.4.26.jar:3.4.26]
+		at reactor.core.publisher.MonoJust.subscribe(MonoJust.java:55) ~[reactor-core-3.4.26.jar:3.4.26]
+		at reactor.core.publisher.Mono.subscribe(Mono.java:4490) ~[reactor-core-3.4.26.jar:3.4.26]
+		at reactor.core.publisher.FluxConcatMap$ConcatMapImmediate.drain(FluxConcatMap.java:451) ~[reactor-core-3.4.26.jar:3.4.26]
+		at reactor.core.publisher.FluxConcatMap$ConcatMapImmediate.onSubscribe(FluxConcatMap.java:219) ~[reactor-core-3.4.26.jar:3.4.26]
+		at reactor.core.publisher.FluxIterable.subscribe(FluxIterable.java:201) ~[reactor-core-3.4.26.jar:3.4.26]
+		at reactor.core.publisher.FluxIterable.subscribe(FluxIterable.java:83) ~[reactor-core-3.4.26.jar:3.4.26]
+		at reactor.core.publisher.InternalMonoOperator.subscribe(InternalMonoOperator.java:64) ~[reactor-core-3.4.26.jar:3.4.26]
+		at reactor.core.publisher.MonoDefer.subscribe(MonoDefer.java:52) ~[reactor-core-3.4.26.jar:3.4.26]
+		at reactor.core.publisher.Mono.subscribe(Mono.java:4490) ~[reactor-core-3.4.26.jar:3.4.26]
+		at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.subscribeNext(MonoIgnoreThen.java:263) ~[reactor-core-3.4.26.jar:3.4.26]
+		at reactor.core.publisher.MonoIgnoreThen.subscribe(MonoIgnoreThen.java:51) ~[reactor-core-3.4.26.jar:3.4.26]
+		at reactor.core.publisher.InternalMonoOperator.subscribe(InternalMonoOperator.java:64) ~[reactor-core-3.4.26.jar:3.4.26]
+		at reactor.core.publisher.MonoDeferContextual.subscribe(MonoDeferContextual.java:55) ~[reactor-core-3.4.26.jar:3.4.26]
+		at reactor.netty.http.server.HttpServer$HttpServerHandle.onStateChange(HttpServer.java:1002) ~[reactor-netty-http-1.0.27.jar:1.0.27]
+		at reactor.netty.ReactorNetty$CompositeConnectionObserver.onStateChange(ReactorNetty.java:707) ~[reactor-netty-core-1.0.27.jar:1.0.27]
+		at reactor.netty.transport.ServerTransport$ChildObserver.onStateChange(ServerTransport.java:477) ~[reactor-netty-core-1.0.27.jar:1.0.27]
+		at reactor.netty.http.server.HttpServerOperations.onInboundNext(HttpServerOperations.java:593) ~[reactor-netty-http-1.0.27.jar:1.0.27]
+		at reactor.netty.channel.ChannelOperationsHandler.channelRead(ChannelOperationsHandler.java:113) ~[reactor-netty-core-1.0.27.jar:1.0.27]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+		at reactor.netty.http.server.HttpTrafficHandler.channelRead(HttpTrafficHandler.java:223) ~[reactor-netty-http-1.0.27.jar:1.0.27]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+		at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:436) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+		at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:346) ~[netty-codec-4.1.87.Final.jar:4.1.87.Final]
+		at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:318) ~[netty-codec-4.1.87.Final.jar:4.1.87.Final]
+		at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:251) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+		at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+		at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+		at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+		at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+		at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+		at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+		at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+		at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.87.Final.jar:4.1.87.Final]
+		at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.87.Final.jar:4.1.87.Final]
+		at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.87.Final.jar:4.1.87.Final]
+		at java.base/java.lang.Thread.run(Thread.java:829) ~[na:na]
+
+2023-06-08 15:40:30.938  INFO 6756 --- [main] r.s.d.g.m.streaming.rx.impl.Application  : Starting Application using Java 11.0.18 on DESKTOP-5CAN66E with PID 6756 (D:\Skillbox\Diplom2\Code\microservice-streaming-rx\impl\target\classes started by CronyPest in D:\Skillbox\Diplom2\Code\microservice-streaming-rx)
+2023-06-08 15:40:30.941  INFO 6756 --- [main] r.s.d.g.m.streaming.rx.impl.Application  : The following 1 profile is active: "local"
+2023-06-08 15:40:31.871  INFO 6756 --- [main] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port 8080
+2023-06-08 15:40:31.878  INFO 6756 --- [main] r.s.d.g.m.streaming.rx.impl.Application  : Started Application in 1.302 seconds (JVM running for 1.97)
+2023-06-08 15:40:42.205 ERROR 6756 --- [reactor-http-nio-2] o.s.w.s.adapter.HttpWebHandlerAdapter    : [09799ffc-1] Error [java.lang.NullPointerException] for HTTP GET "/api/v1/streaming/ws", but ServerHttpResponse already committed (200 OK)
+2023-06-08 15:40:42.211 ERROR 6756 --- [reactor-http-nio-2] r.n.http.server.HttpServerOperations     : [09799ffc-1, L:/127.0.0.1:8080 - R:/127.0.0.1:5640] Error finishing response. Closing connection
+
+java.lang.NullPointerException: null
+	at org.springframework.web.reactive.socket.server.upgrade.ReactorNettyRequestUpgradeStrategy.lambda$null$0(ReactorNettyRequestUpgradeStrategy.java:176) ~[spring-webflux-5.3.25.jar:5.3.25]
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	*__checkpoint ⇢ HTTP GET "/api/v1/streaming/ws" [ExceptionHandlingWebHandler]
+Original Stack Trace:
+		at org.springframework.web.reactive.socket.server.upgrade.ReactorNettyRequestUpgradeStrategy.lambda$null$0(ReactorNettyRequestUpgradeStrategy.java:176) ~[spring-webflux-5.3.25.jar:5.3.25]
+		at reactor.netty.http.server.HttpServerOperations.lambda$withWebsocketSupport$15(HttpServerOperations.java:892) ~[reactor-netty-http-1.0.27.jar:1.0.27]
+		at reactor.core.publisher.FluxDoOnEach$DoOnEachSubscriber.onComplete(FluxDoOnEach.java:214) ~[reactor-core-3.4.26.jar:3.4.26]
+		at reactor.core.publisher.Operators.complete(Operators.java:137) ~[reactor-core-3.4.26.jar:3.4.26]
+		at reactor.core.publisher.MonoEmpty.subscribe(MonoEmpty.java:46) ~[reactor-core-3.4.26.jar:3.4.26]
+		at reactor.core.publisher.InternalMonoOperator.subscribe(InternalMonoOperator.java:64) ~[reactor-core-3.4.26.jar:3.4.26]
+		at reactor.core.publisher.MonoDefer.subscribe(MonoDefer.java:52) ~[reactor-core-3.4.26.jar:3.4.26]
+		at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.subscribeNext(MonoIgnoreThen.java:240) ~[reactor-core-3.4.26.jar:3.4.26]
+		at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.onComplete(MonoIgnoreThen.java:203) ~[reactor-core-3.4.26.jar:3.4.26]
+		at reactor.core.publisher.MonoIgnoreElements$IgnoreElementsSubscriber.onComplete(MonoIgnoreElements.java:89) ~[reactor-core-3.4.26.jar:3.4.26]
+		at reactor.core.publisher.FluxConcatArray$ConcatArraySubscriber.onComplete(FluxConcatArray.java:230) ~[reactor-core-3.4.26.jar:3.4.26]
+		at reactor.core.publisher.FluxConcatArray.subscribe(FluxConcatArray.java:78) ~[reactor-core-3.4.26.jar:3.4.26]
+		at reactor.core.publisher.Mono.subscribe(Mono.java:4490) ~[reactor-core-3.4.26.jar:3.4.26]
+		at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.subscribeNext(MonoIgnoreThen.java:263) ~[reactor-core-3.4.26.jar:3.4.26]
+		at reactor.core.publisher.MonoIgnoreThen.subscribe(MonoIgnoreThen.java:51) ~[reactor-core-3.4.26.jar:3.4.26]
+		at reactor.core.publisher.Mono.subscribe(Mono.java:4490) ~[reactor-core-3.4.26.jar:3.4.26]
+		at reactor.core.publisher.FluxFlatMap.trySubscribeScalarMap(FluxFlatMap.java:203) ~[reactor-core-3.4.26.jar:3.4.26]
+		at reactor.core.publisher.MonoFlatMap.subscribeOrReturn(MonoFlatMap.java:53) ~[reactor-core-3.4.26.jar:3.4.26]
+		at reactor.core.publisher.Mono.subscribe(Mono.java:4475) ~[reactor-core-3.4.26.jar:3.4.26]
+		at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.subscribeNext(MonoIgnoreThen.java:263) ~[reactor-core-3.4.26.jar:3.4.26]
+		at reactor.core.publisher.MonoIgnoreThen.subscribe(MonoIgnoreThen.java:51) ~[reactor-core-3.4.26.jar:3.4.26]
+		at reactor.core.publisher.MonoFlatMap$FlatMapMain.onNext(MonoFlatMap.java:157) ~[reactor-core-3.4.26.jar:3.4.26]
+		at reactor.core.publisher.FluxSwitchIfEmpty$SwitchIfEmptySubscriber.onNext(FluxSwitchIfEmpty.java:74) ~[reactor-core-3.4.26.jar:3.4.26]
+		at reactor.core.publisher.MonoNext$NextSubscriber.onNext(MonoNext.java:82) ~[reactor-core-3.4.26.jar:3.4.26]
+		at reactor.core.publisher.FluxConcatMap$ConcatMapImmediate.innerNext(FluxConcatMap.java:282) ~[reactor-core-3.4.26.jar:3.4.26]
+		at reactor.core.publisher.FluxConcatMap$ConcatMapInner.onNext(FluxConcatMap.java:863) ~[reactor-core-3.4.26.jar:3.4.26]
+		at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.onNext(FluxMapFuseable.java:129) ~[reactor-core-3.4.26.jar:3.4.26]
+		at reactor.core.publisher.Operators$ScalarSubscription.request(Operators.java:2400) ~[reactor-core-3.4.26.jar:3.4.26]
+		at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.request(FluxMapFuseable.java:171) ~[reactor-core-3.4.26.jar:3.4.26]
+		at reactor.core.publisher.Operators$MultiSubscriptionSubscriber.set(Operators.java:2196) ~[reactor-core-3.4.26.jar:3.4.26]
+		at reactor.core.publisher.Operators$MultiSubscriptionSubscriber.onSubscribe(Operators.java:2070) ~[reactor-core-3.4.26.jar:3.4.26]
+		at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.onSubscribe(FluxMapFuseable.java:96) ~[reactor-core-3.4.26.jar:3.4.26]
+		at reactor.core.publisher.MonoJust.subscribe(MonoJust.java:55) ~[reactor-core-3.4.26.jar:3.4.26]
+		at reactor.core.publisher.Mono.subscribe(Mono.java:4490) ~[reactor-core-3.4.26.jar:3.4.26]
+		at reactor.core.publisher.FluxConcatMap$ConcatMapImmediate.drain(FluxConcatMap.java:451) ~[reactor-core-3.4.26.jar:3.4.26]
+		at reactor.core.publisher.FluxConcatMap$ConcatMapImmediate.onSubscribe(FluxConcatMap.java:219) ~[reactor-core-3.4.26.jar:3.4.26]
+		at reactor.core.publisher.FluxIterable.subscribe(FluxIterable.java:201) ~[reactor-core-3.4.26.jar:3.4.26]
+		at reactor.core.publisher.FluxIterable.subscribe(FluxIterable.java:83) ~[reactor-core-3.4.26.jar:3.4.26]
+		at reactor.core.publisher.InternalMonoOperator.subscribe(InternalMonoOperator.java:64) ~[reactor-core-3.4.26.jar:3.4.26]
+		at reactor.core.publisher.MonoDefer.subscribe(MonoDefer.java:52) ~[reactor-core-3.4.26.jar:3.4.26]
+		at reactor.core.publisher.Mono.subscribe(Mono.java:4490) ~[reactor-core-3.4.26.jar:3.4.26]
+		at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.subscribeNext(MonoIgnoreThen.java:263) ~[reactor-core-3.4.26.jar:3.4.26]
+		at reactor.core.publisher.MonoIgnoreThen.subscribe(MonoIgnoreThen.java:51) ~[reactor-core-3.4.26.jar:3.4.26]
+		at reactor.core.publisher.InternalMonoOperator.subscribe(InternalMonoOperator.java:64) ~[reactor-core-3.4.26.jar:3.4.26]
+		at reactor.core.publisher.MonoDeferContextual.subscribe(MonoDeferContextual.java:55) ~[reactor-core-3.4.26.jar:3.4.26]
+		at reactor.netty.http.server.HttpServer$HttpServerHandle.onStateChange(HttpServer.java:1002) ~[reactor-netty-http-1.0.27.jar:1.0.27]
+		at reactor.netty.ReactorNetty$CompositeConnectionObserver.onStateChange(ReactorNetty.java:707) ~[reactor-netty-core-1.0.27.jar:1.0.27]
+		at reactor.netty.transport.ServerTransport$ChildObserver.onStateChange(ServerTransport.java:477) ~[reactor-netty-core-1.0.27.jar:1.0.27]
+		at reactor.netty.http.server.HttpServerOperations.onInboundNext(HttpServerOperations.java:593) ~[reactor-netty-http-1.0.27.jar:1.0.27]
+		at reactor.netty.channel.ChannelOperationsHandler.channelRead(ChannelOperationsHandler.java:113) ~[reactor-netty-core-1.0.27.jar:1.0.27]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+		at reactor.netty.http.server.HttpTrafficHandler.channelRead(HttpTrafficHandler.java:223) ~[reactor-netty-http-1.0.27.jar:1.0.27]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+		at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:436) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+		at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:346) ~[netty-codec-4.1.87.Final.jar:4.1.87.Final]
+		at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:318) ~[netty-codec-4.1.87.Final.jar:4.1.87.Final]
+		at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:251) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+		at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+		at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+		at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+		at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+		at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+		at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+		at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+		at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.87.Final.jar:4.1.87.Final]
+		at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.87.Final.jar:4.1.87.Final]
+		at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.87.Final.jar:4.1.87.Final]
+		at java.base/java.lang.Thread.run(Thread.java:829) ~[na:na]
+
+2023-06-08 16:02:28.650  INFO 11256 --- [main] r.s.d.g.m.streaming.rx.impl.Application  : Starting Application using Java 11.0.18 on DESKTOP-5CAN66E with PID 11256 (D:\Skillbox\Diplom2\Code\microservice-streaming-rx\impl\target\classes started by CronyPest in D:\Skillbox\Diplom2\Code\microservice-streaming-rx)
+2023-06-08 16:02:28.653  INFO 11256 --- [main] r.s.d.g.m.streaming.rx.impl.Application  : The following 1 profile is active: "local"
+2023-06-08 16:02:29.608  INFO 11256 --- [main] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port 8080
+2023-06-08 16:02:29.622  INFO 11256 --- [main] r.s.d.g.m.streaming.rx.impl.Application  : Started Application in 1.365 seconds (JVM running for 2.058)
+2023-06-08 16:05:12.814  INFO 1412 --- [main] r.s.d.g.m.streaming.rx.impl.Application  : Starting Application using Java 11.0.18 on DESKTOP-5CAN66E with PID 1412 (D:\Skillbox\Diplom2\Code\microservice-streaming-rx\impl\target\classes started by CronyPest in D:\Skillbox\Diplom2\Code\microservice-streaming-rx)
+2023-06-08 16:05:12.817  INFO 1412 --- [main] r.s.d.g.m.streaming.rx.impl.Application  : The following 1 profile is active: "local"
+2023-06-08 16:05:13.798  INFO 1412 --- [main] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port 8080
+2023-06-08 16:05:13.811  INFO 1412 --- [main] r.s.d.g.m.streaming.rx.impl.Application  : Started Application in 1.404 seconds (JVM running for 2.036)
+2023-06-08 16:06:39.970  INFO 2344 --- [main] r.s.d.g.m.streaming.rx.impl.Application  : Starting Application using Java 11.0.18 on DESKTOP-5CAN66E with PID 2344 (D:\Skillbox\Diplom2\Code\microservice-streaming-rx\impl\target\classes started by CronyPest in D:\Skillbox\Diplom2\Code\microservice-streaming-rx)
+2023-06-08 16:06:39.973  INFO 2344 --- [main] r.s.d.g.m.streaming.rx.impl.Application  : The following 1 profile is active: "local"
+2023-06-08 16:06:40.905  INFO 2344 --- [main] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port 8080
+2023-06-08 16:06:40.918  INFO 2344 --- [main] r.s.d.g.m.streaming.rx.impl.Application  : Started Application in 1.312 seconds (JVM running for 1.972)
+2023-06-08 16:07:54.005  INFO 8652 --- [main] r.s.d.g.m.streaming.rx.impl.Application  : Starting Application using Java 11.0.18 on DESKTOP-5CAN66E with PID 8652 (D:\Skillbox\Diplom2\Code\microservice-streaming-rx\impl\target\classes started by CronyPest in D:\Skillbox\Diplom2\Code\microservice-streaming-rx)
+2023-06-08 16:07:54.007  INFO 8652 --- [main] r.s.d.g.m.streaming.rx.impl.Application  : The following 1 profile is active: "local"
+2023-06-08 16:07:54.971  INFO 8652 --- [main] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port 8080
+2023-06-08 16:07:54.983  INFO 8652 --- [main] r.s.d.g.m.streaming.rx.impl.Application  : Started Application in 1.344 seconds (JVM running for 1.986)
+2023-06-08 16:14:01.733  INFO 16780 --- [main] r.s.d.g.m.streaming.rx.impl.Application  : Starting Application using Java 11.0.18 on DESKTOP-5CAN66E with PID 16780 (D:\Skillbox\Diplom2\Code\microservice-streaming-rx\impl\target\classes started by CronyPest in D:\Skillbox\Diplom2\Code\microservice-streaming-rx)
+2023-06-08 16:14:01.735  INFO 16780 --- [main] r.s.d.g.m.streaming.rx.impl.Application  : The following 1 profile is active: "local"
+2023-06-08 16:14:02.711  INFO 16780 --- [main] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port 8080
+2023-06-08 16:14:02.725  INFO 16780 --- [main] r.s.d.g.m.streaming.rx.impl.Application  : Started Application in 1.361 seconds (JVM running for 1.939)
+2023-06-08 16:15:40.880  INFO 2668 --- [main] r.s.d.g.m.streaming.rx.impl.Application  : Starting Application using Java 11.0.18 on DESKTOP-5CAN66E with PID 2668 (D:\Skillbox\Diplom2\Code\microservice-streaming-rx\impl\target\classes started by CronyPest in D:\Skillbox\Diplom2\Code\microservice-streaming-rx)
+2023-06-08 16:15:40.883  INFO 2668 --- [main] r.s.d.g.m.streaming.rx.impl.Application  : The following 1 profile is active: "local"
+2023-06-08 16:15:41.879  INFO 2668 --- [main] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port 8080
+2023-06-08 16:15:41.893  INFO 2668 --- [main] r.s.d.g.m.streaming.rx.impl.Application  : Started Application in 1.385 seconds (JVM running for 1.985)
+2023-06-08 16:18:45.300  INFO 4336 --- [main] r.s.d.g.m.streaming.rx.impl.Application  : Starting Application using Java 11.0.18 on DESKTOP-5CAN66E with PID 4336 (D:\Skillbox\Diplom2\Code\microservice-streaming-rx\impl\target\classes started by CronyPest in D:\Skillbox\Diplom2\Code\microservice-streaming-rx)
+2023-06-08 16:18:45.303  INFO 4336 --- [main] r.s.d.g.m.streaming.rx.impl.Application  : The following 1 profile is active: "local"
+2023-06-08 16:18:46.260  INFO 4336 --- [main] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port 8080
+2023-06-08 16:18:46.268  INFO 4336 --- [main] r.s.d.g.m.streaming.rx.impl.Application  : Started Application in 1.364 seconds (JVM running for 2.007)
+2023-06-08 16:36:08.001  INFO 16128 --- [main] r.s.d.g.m.streaming.rx.impl.Application  : Starting Application using Java 11.0.18 on DESKTOP-5CAN66E with PID 16128 (D:\Skillbox\Diplom2\Code\microservice-streaming-rx\impl\target\classes started by CronyPest in D:\Skillbox\Diplom2\Code\microservice-streaming-rx)
+2023-06-08 16:36:08.003  INFO 16128 --- [main] r.s.d.g.m.streaming.rx.impl.Application  : The following 1 profile is active: "local"
+2023-06-08 16:36:08.939  INFO 16128 --- [main] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port 8080
+2023-06-08 16:36:08.955  INFO 16128 --- [main] r.s.d.g.m.streaming.rx.impl.Application  : Started Application in 1.31 seconds (JVM running for 1.953)
+2023-06-08 16:36:19.711  INFO 16128 --- [reactor-http-nio-2] reactor.Mono.IgnorePublisher.2           : onSubscribe(MonoIgnoreElements.IgnoreElementsSubscriber)
+2023-06-08 16:36:19.713  INFO 16128 --- [reactor-http-nio-2] reactor.Mono.IgnorePublisher.2           : request(unbounded)
+2023-06-08 16:36:19.714  INFO 16128 --- [reactor-http-nio-2] r.s.d.g.m.s.r.i.w.StreamingHandler       : Session close with: 154bd70e
+2023-06-08 16:36:19.718  INFO 16128 --- [reactor-http-nio-2] reactor.Mono.SendMany.1                  : onSubscribe(MonoSendMany.SendManyInner)
+2023-06-08 16:36:19.718  INFO 16128 --- [reactor-http-nio-2] reactor.Mono.SendMany.1                  : request(unbounded)
+2023-06-08 16:36:19.718  INFO 16128 --- [reactor-http-nio-2] r.s.d.g.m.s.r.i.w.StreamingHandler       : Session close with: 154bd70e
+2023-06-08 16:36:19.718 ERROR 16128 --- [reactor-http-nio-2] reactor.Mono.SendMany.1                  : onError(java.lang.IllegalStateException: Rejecting additional inbound receiver. State=[terminated=false, cancelled=false, pending=0, error=false])
+2023-06-08 16:36:19.722 ERROR 16128 --- [reactor-http-nio-2] reactor.Mono.SendMany.1                  : 
+
+java.lang.IllegalStateException: Rejecting additional inbound receiver. State=[terminated=false, cancelled=false, pending=0, error=false]
+	at reactor.netty.channel.FluxReceive.startReceiver(FluxReceive.java:189) ~[reactor-netty-core-1.0.27.jar:1.0.27]
+	at reactor.netty.channel.FluxReceive.subscribe(FluxReceive.java:148) ~[reactor-netty-core-1.0.27.jar:1.0.27]
+	at reactor.core.publisher.Flux.subscribe(Flux.java:8642) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.netty.channel.MonoSendMany.subscribe(MonoSendMany.java:102) ~[reactor-netty-core-1.0.27.jar:1.0.27]
+	at reactor.core.publisher.Mono.subscribe(Mono.java:4490) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.MonoZip.subscribe(MonoZip.java:129) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.Mono.subscribe(Mono.java:4490) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.MonoIgnorePublisher.subscribe(MonoIgnorePublisher.java:57) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.InternalMonoOperator.subscribe(InternalMonoOperator.java:64) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.subscribeNext(MonoIgnoreThen.java:240) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.onComplete(MonoIgnoreThen.java:203) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.FluxFilter$FilterSubscriber.onComplete(FluxFilter.java:166) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.Operators.complete(Operators.java:137) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.MonoEmpty.subscribe(MonoEmpty.java:46) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.Mono.subscribe(Mono.java:4490) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.subscribeNext(MonoIgnoreThen.java:263) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.MonoIgnoreThen.subscribe(MonoIgnoreThen.java:51) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.Mono.subscribe(Mono.java:4490) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.netty.http.server.HttpServerOperations.lambda$withWebsocketSupport$15(HttpServerOperations.java:893) ~[reactor-netty-http-1.0.27.jar:1.0.27]
+	at reactor.core.publisher.FluxDoOnEach$DoOnEachSubscriber.onComplete(FluxDoOnEach.java:214) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.Operators.complete(Operators.java:137) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.MonoEmpty.subscribe(MonoEmpty.java:46) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.InternalMonoOperator.subscribe(InternalMonoOperator.java:64) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.MonoDefer.subscribe(MonoDefer.java:52) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.subscribeNext(MonoIgnoreThen.java:240) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.onComplete(MonoIgnoreThen.java:203) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.MonoIgnoreElements$IgnoreElementsSubscriber.onComplete(MonoIgnoreElements.java:89) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.FluxConcatArray$ConcatArraySubscriber.onComplete(FluxConcatArray.java:230) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.FluxConcatArray.subscribe(FluxConcatArray.java:78) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.Mono.subscribe(Mono.java:4490) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.subscribeNext(MonoIgnoreThen.java:263) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.MonoIgnoreThen.subscribe(MonoIgnoreThen.java:51) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.Mono.subscribe(Mono.java:4490) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.FluxFlatMap.trySubscribeScalarMap(FluxFlatMap.java:203) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.MonoFlatMap.subscribeOrReturn(MonoFlatMap.java:53) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.Mono.subscribe(Mono.java:4475) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.subscribeNext(MonoIgnoreThen.java:263) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.MonoIgnoreThen.subscribe(MonoIgnoreThen.java:51) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.MonoFlatMap$FlatMapMain.onNext(MonoFlatMap.java:157) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.FluxSwitchIfEmpty$SwitchIfEmptySubscriber.onNext(FluxSwitchIfEmpty.java:74) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.MonoNext$NextSubscriber.onNext(MonoNext.java:82) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.FluxConcatMap$ConcatMapImmediate.innerNext(FluxConcatMap.java:282) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.FluxConcatMap$ConcatMapInner.onNext(FluxConcatMap.java:863) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.onNext(FluxMapFuseable.java:129) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.Operators$ScalarSubscription.request(Operators.java:2400) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.request(FluxMapFuseable.java:171) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.Operators$MultiSubscriptionSubscriber.set(Operators.java:2196) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.Operators$MultiSubscriptionSubscriber.onSubscribe(Operators.java:2070) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.onSubscribe(FluxMapFuseable.java:96) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.MonoJust.subscribe(MonoJust.java:55) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.Mono.subscribe(Mono.java:4490) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.FluxConcatMap$ConcatMapImmediate.drain(FluxConcatMap.java:451) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.FluxConcatMap$ConcatMapImmediate.onSubscribe(FluxConcatMap.java:219) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.FluxIterable.subscribe(FluxIterable.java:201) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.FluxIterable.subscribe(FluxIterable.java:83) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.InternalMonoOperator.subscribe(InternalMonoOperator.java:64) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.MonoDefer.subscribe(MonoDefer.java:52) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.Mono.subscribe(Mono.java:4490) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.subscribeNext(MonoIgnoreThen.java:263) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.MonoIgnoreThen.subscribe(MonoIgnoreThen.java:51) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.InternalMonoOperator.subscribe(InternalMonoOperator.java:64) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.MonoDeferContextual.subscribe(MonoDeferContextual.java:55) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.netty.http.server.HttpServer$HttpServerHandle.onStateChange(HttpServer.java:1002) ~[reactor-netty-http-1.0.27.jar:1.0.27]
+	at reactor.netty.ReactorNetty$CompositeConnectionObserver.onStateChange(ReactorNetty.java:707) ~[reactor-netty-core-1.0.27.jar:1.0.27]
+	at reactor.netty.transport.ServerTransport$ChildObserver.onStateChange(ServerTransport.java:477) ~[reactor-netty-core-1.0.27.jar:1.0.27]
+	at reactor.netty.http.server.HttpServerOperations.onInboundNext(HttpServerOperations.java:593) ~[reactor-netty-http-1.0.27.jar:1.0.27]
+	at reactor.netty.channel.ChannelOperationsHandler.channelRead(ChannelOperationsHandler.java:113) ~[reactor-netty-core-1.0.27.jar:1.0.27]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+	at reactor.netty.http.server.HttpTrafficHandler.channelRead(HttpTrafficHandler.java:223) ~[reactor-netty-http-1.0.27.jar:1.0.27]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:436) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:346) ~[netty-codec-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:318) ~[netty-codec-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:251) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.87.Final.jar:4.1.87.Final]
+	at java.base/java.lang.Thread.run(Thread.java:829) ~[na:na]
+
+2023-06-08 16:36:19.727 ERROR 16128 --- [reactor-http-nio-2] reactor.Mono.IgnorePublisher.2           : onError(java.lang.IllegalStateException: Rejecting additional inbound receiver. State=[terminated=false, cancelled=false, pending=0, error=false])
+2023-06-08 16:36:19.728 ERROR 16128 --- [reactor-http-nio-2] reactor.Mono.IgnorePublisher.2           : 
+
+java.lang.IllegalStateException: Rejecting additional inbound receiver. State=[terminated=false, cancelled=false, pending=0, error=false]
+	at reactor.netty.channel.FluxReceive.startReceiver(FluxReceive.java:189) ~[reactor-netty-core-1.0.27.jar:1.0.27]
+	at reactor.netty.channel.FluxReceive.subscribe(FluxReceive.java:148) ~[reactor-netty-core-1.0.27.jar:1.0.27]
+	at reactor.core.publisher.Flux.subscribe(Flux.java:8642) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.netty.channel.MonoSendMany.subscribe(MonoSendMany.java:102) ~[reactor-netty-core-1.0.27.jar:1.0.27]
+	at reactor.core.publisher.Mono.subscribe(Mono.java:4490) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.MonoZip.subscribe(MonoZip.java:129) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.Mono.subscribe(Mono.java:4490) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.MonoIgnorePublisher.subscribe(MonoIgnorePublisher.java:57) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.InternalMonoOperator.subscribe(InternalMonoOperator.java:64) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.subscribeNext(MonoIgnoreThen.java:240) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.onComplete(MonoIgnoreThen.java:203) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.FluxFilter$FilterSubscriber.onComplete(FluxFilter.java:166) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.Operators.complete(Operators.java:137) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.MonoEmpty.subscribe(MonoEmpty.java:46) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.Mono.subscribe(Mono.java:4490) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.subscribeNext(MonoIgnoreThen.java:263) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.MonoIgnoreThen.subscribe(MonoIgnoreThen.java:51) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.Mono.subscribe(Mono.java:4490) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.netty.http.server.HttpServerOperations.lambda$withWebsocketSupport$15(HttpServerOperations.java:893) ~[reactor-netty-http-1.0.27.jar:1.0.27]
+	at reactor.core.publisher.FluxDoOnEach$DoOnEachSubscriber.onComplete(FluxDoOnEach.java:214) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.Operators.complete(Operators.java:137) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.MonoEmpty.subscribe(MonoEmpty.java:46) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.InternalMonoOperator.subscribe(InternalMonoOperator.java:64) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.MonoDefer.subscribe(MonoDefer.java:52) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.subscribeNext(MonoIgnoreThen.java:240) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.onComplete(MonoIgnoreThen.java:203) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.MonoIgnoreElements$IgnoreElementsSubscriber.onComplete(MonoIgnoreElements.java:89) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.FluxConcatArray$ConcatArraySubscriber.onComplete(FluxConcatArray.java:230) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.FluxConcatArray.subscribe(FluxConcatArray.java:78) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.Mono.subscribe(Mono.java:4490) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.subscribeNext(MonoIgnoreThen.java:263) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.MonoIgnoreThen.subscribe(MonoIgnoreThen.java:51) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.Mono.subscribe(Mono.java:4490) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.FluxFlatMap.trySubscribeScalarMap(FluxFlatMap.java:203) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.MonoFlatMap.subscribeOrReturn(MonoFlatMap.java:53) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.Mono.subscribe(Mono.java:4475) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.subscribeNext(MonoIgnoreThen.java:263) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.MonoIgnoreThen.subscribe(MonoIgnoreThen.java:51) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.MonoFlatMap$FlatMapMain.onNext(MonoFlatMap.java:157) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.FluxSwitchIfEmpty$SwitchIfEmptySubscriber.onNext(FluxSwitchIfEmpty.java:74) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.MonoNext$NextSubscriber.onNext(MonoNext.java:82) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.FluxConcatMap$ConcatMapImmediate.innerNext(FluxConcatMap.java:282) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.FluxConcatMap$ConcatMapInner.onNext(FluxConcatMap.java:863) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.onNext(FluxMapFuseable.java:129) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.Operators$ScalarSubscription.request(Operators.java:2400) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.request(FluxMapFuseable.java:171) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.Operators$MultiSubscriptionSubscriber.set(Operators.java:2196) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.Operators$MultiSubscriptionSubscriber.onSubscribe(Operators.java:2070) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.onSubscribe(FluxMapFuseable.java:96) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.MonoJust.subscribe(MonoJust.java:55) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.Mono.subscribe(Mono.java:4490) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.FluxConcatMap$ConcatMapImmediate.drain(FluxConcatMap.java:451) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.FluxConcatMap$ConcatMapImmediate.onSubscribe(FluxConcatMap.java:219) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.FluxIterable.subscribe(FluxIterable.java:201) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.FluxIterable.subscribe(FluxIterable.java:83) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.InternalMonoOperator.subscribe(InternalMonoOperator.java:64) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.MonoDefer.subscribe(MonoDefer.java:52) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.Mono.subscribe(Mono.java:4490) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.subscribeNext(MonoIgnoreThen.java:263) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.MonoIgnoreThen.subscribe(MonoIgnoreThen.java:51) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.InternalMonoOperator.subscribe(InternalMonoOperator.java:64) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.MonoDeferContextual.subscribe(MonoDeferContextual.java:55) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.netty.http.server.HttpServer$HttpServerHandle.onStateChange(HttpServer.java:1002) ~[reactor-netty-http-1.0.27.jar:1.0.27]
+	at reactor.netty.ReactorNetty$CompositeConnectionObserver.onStateChange(ReactorNetty.java:707) ~[reactor-netty-core-1.0.27.jar:1.0.27]
+	at reactor.netty.transport.ServerTransport$ChildObserver.onStateChange(ServerTransport.java:477) ~[reactor-netty-core-1.0.27.jar:1.0.27]
+	at reactor.netty.http.server.HttpServerOperations.onInboundNext(HttpServerOperations.java:593) ~[reactor-netty-http-1.0.27.jar:1.0.27]
+	at reactor.netty.channel.ChannelOperationsHandler.channelRead(ChannelOperationsHandler.java:113) ~[reactor-netty-core-1.0.27.jar:1.0.27]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+	at reactor.netty.http.server.HttpTrafficHandler.channelRead(HttpTrafficHandler.java:223) ~[reactor-netty-http-1.0.27.jar:1.0.27]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:436) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:346) ~[netty-codec-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:318) ~[netty-codec-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:251) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.87.Final.jar:4.1.87.Final]
+	at java.base/java.lang.Thread.run(Thread.java:829) ~[na:na]
+
+2023-06-08 16:37:16.314  INFO 16128 --- [reactor-http-nio-3] reactor.Mono.IgnorePublisher.4           : onSubscribe(MonoIgnoreElements.IgnoreElementsSubscriber)
+2023-06-08 16:37:16.315  INFO 16128 --- [reactor-http-nio-3] reactor.Mono.IgnorePublisher.4           : request(unbounded)
+2023-06-08 16:37:16.317  INFO 16128 --- [reactor-http-nio-3] r.s.d.g.m.s.r.i.w.StreamingHandler       : Session close with: 765d607b
+2023-06-08 16:37:16.320  INFO 16128 --- [reactor-http-nio-3] reactor.Mono.SendMany.3                  : onSubscribe(MonoSendMany.SendManyInner)
+2023-06-08 16:37:16.320  INFO 16128 --- [reactor-http-nio-3] reactor.Mono.SendMany.3                  : request(unbounded)
+2023-06-08 16:37:16.320  INFO 16128 --- [reactor-http-nio-3] r.s.d.g.m.s.r.i.w.StreamingHandler       : Session close with: 765d607b
+2023-06-08 16:37:16.321 ERROR 16128 --- [reactor-http-nio-3] reactor.Mono.SendMany.3                  : onError(java.lang.IllegalStateException: Rejecting additional inbound receiver. State=[terminated=false, cancelled=false, pending=0, error=false])
+2023-06-08 16:37:16.333 ERROR 16128 --- [reactor-http-nio-3] reactor.Mono.SendMany.3                  : 
+
+java.lang.IllegalStateException: Rejecting additional inbound receiver. State=[terminated=false, cancelled=false, pending=0, error=false]
+	at reactor.netty.channel.FluxReceive.startReceiver(FluxReceive.java:189) ~[reactor-netty-core-1.0.27.jar:1.0.27]
+	at reactor.netty.channel.FluxReceive.subscribe(FluxReceive.java:148) ~[reactor-netty-core-1.0.27.jar:1.0.27]
+	at reactor.core.publisher.Flux.subscribe(Flux.java:8642) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.netty.channel.MonoSendMany.subscribe(MonoSendMany.java:102) ~[reactor-netty-core-1.0.27.jar:1.0.27]
+	at reactor.core.publisher.Mono.subscribe(Mono.java:4490) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.MonoZip.subscribe(MonoZip.java:129) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.Mono.subscribe(Mono.java:4490) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.MonoIgnorePublisher.subscribe(MonoIgnorePublisher.java:57) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.InternalMonoOperator.subscribe(InternalMonoOperator.java:64) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.subscribeNext(MonoIgnoreThen.java:240) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.onComplete(MonoIgnoreThen.java:203) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.FluxFilter$FilterSubscriber.onComplete(FluxFilter.java:166) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.Operators.complete(Operators.java:137) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.MonoEmpty.subscribe(MonoEmpty.java:46) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.Mono.subscribe(Mono.java:4490) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.subscribeNext(MonoIgnoreThen.java:263) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.MonoIgnoreThen.subscribe(MonoIgnoreThen.java:51) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.Mono.subscribe(Mono.java:4490) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.netty.http.server.HttpServerOperations.lambda$withWebsocketSupport$15(HttpServerOperations.java:893) ~[reactor-netty-http-1.0.27.jar:1.0.27]
+	at reactor.core.publisher.FluxDoOnEach$DoOnEachSubscriber.onComplete(FluxDoOnEach.java:214) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.Operators.complete(Operators.java:137) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.MonoEmpty.subscribe(MonoEmpty.java:46) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.InternalMonoOperator.subscribe(InternalMonoOperator.java:64) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.MonoDefer.subscribe(MonoDefer.java:52) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.subscribeNext(MonoIgnoreThen.java:240) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.onComplete(MonoIgnoreThen.java:203) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.MonoIgnoreElements$IgnoreElementsSubscriber.onComplete(MonoIgnoreElements.java:89) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.FluxConcatArray$ConcatArraySubscriber.onComplete(FluxConcatArray.java:230) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.FluxConcatArray.subscribe(FluxConcatArray.java:78) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.Mono.subscribe(Mono.java:4490) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.subscribeNext(MonoIgnoreThen.java:263) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.MonoIgnoreThen.subscribe(MonoIgnoreThen.java:51) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.Mono.subscribe(Mono.java:4490) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.FluxFlatMap.trySubscribeScalarMap(FluxFlatMap.java:203) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.MonoFlatMap.subscribeOrReturn(MonoFlatMap.java:53) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.Mono.subscribe(Mono.java:4475) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.subscribeNext(MonoIgnoreThen.java:263) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.MonoIgnoreThen.subscribe(MonoIgnoreThen.java:51) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.MonoFlatMap$FlatMapMain.onNext(MonoFlatMap.java:157) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.FluxSwitchIfEmpty$SwitchIfEmptySubscriber.onNext(FluxSwitchIfEmpty.java:74) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.MonoNext$NextSubscriber.onNext(MonoNext.java:82) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.FluxConcatMap$ConcatMapImmediate.innerNext(FluxConcatMap.java:282) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.FluxConcatMap$ConcatMapInner.onNext(FluxConcatMap.java:863) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.onNext(FluxMapFuseable.java:129) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.Operators$ScalarSubscription.request(Operators.java:2400) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.request(FluxMapFuseable.java:171) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.Operators$MultiSubscriptionSubscriber.set(Operators.java:2196) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.Operators$MultiSubscriptionSubscriber.onSubscribe(Operators.java:2070) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.onSubscribe(FluxMapFuseable.java:96) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.MonoJust.subscribe(MonoJust.java:55) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.Mono.subscribe(Mono.java:4490) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.FluxConcatMap$ConcatMapImmediate.drain(FluxConcatMap.java:451) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.FluxConcatMap$ConcatMapImmediate.onSubscribe(FluxConcatMap.java:219) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.FluxIterable.subscribe(FluxIterable.java:201) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.FluxIterable.subscribe(FluxIterable.java:83) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.InternalMonoOperator.subscribe(InternalMonoOperator.java:64) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.MonoDefer.subscribe(MonoDefer.java:52) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.Mono.subscribe(Mono.java:4490) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.subscribeNext(MonoIgnoreThen.java:263) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.MonoIgnoreThen.subscribe(MonoIgnoreThen.java:51) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.InternalMonoOperator.subscribe(InternalMonoOperator.java:64) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.MonoDeferContextual.subscribe(MonoDeferContextual.java:55) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.netty.http.server.HttpServer$HttpServerHandle.onStateChange(HttpServer.java:1002) ~[reactor-netty-http-1.0.27.jar:1.0.27]
+	at reactor.netty.ReactorNetty$CompositeConnectionObserver.onStateChange(ReactorNetty.java:707) ~[reactor-netty-core-1.0.27.jar:1.0.27]
+	at reactor.netty.transport.ServerTransport$ChildObserver.onStateChange(ServerTransport.java:477) ~[reactor-netty-core-1.0.27.jar:1.0.27]
+	at reactor.netty.http.server.HttpServerOperations.onInboundNext(HttpServerOperations.java:593) ~[reactor-netty-http-1.0.27.jar:1.0.27]
+	at reactor.netty.channel.ChannelOperationsHandler.channelRead(ChannelOperationsHandler.java:113) ~[reactor-netty-core-1.0.27.jar:1.0.27]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+	at reactor.netty.http.server.HttpTrafficHandler.channelRead(HttpTrafficHandler.java:223) ~[reactor-netty-http-1.0.27.jar:1.0.27]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:436) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:346) ~[netty-codec-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:318) ~[netty-codec-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:251) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.87.Final.jar:4.1.87.Final]
+	at java.base/java.lang.Thread.run(Thread.java:829) ~[na:na]
+
+2023-06-08 16:37:16.335 ERROR 16128 --- [reactor-http-nio-3] reactor.Mono.IgnorePublisher.4           : onError(java.lang.IllegalStateException: Rejecting additional inbound receiver. State=[terminated=false, cancelled=false, pending=0, error=false])
+2023-06-08 16:37:16.336 ERROR 16128 --- [reactor-http-nio-3] reactor.Mono.IgnorePublisher.4           : 
+
+java.lang.IllegalStateException: Rejecting additional inbound receiver. State=[terminated=false, cancelled=false, pending=0, error=false]
+	at reactor.netty.channel.FluxReceive.startReceiver(FluxReceive.java:189) ~[reactor-netty-core-1.0.27.jar:1.0.27]
+	at reactor.netty.channel.FluxReceive.subscribe(FluxReceive.java:148) ~[reactor-netty-core-1.0.27.jar:1.0.27]
+	at reactor.core.publisher.Flux.subscribe(Flux.java:8642) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.netty.channel.MonoSendMany.subscribe(MonoSendMany.java:102) ~[reactor-netty-core-1.0.27.jar:1.0.27]
+	at reactor.core.publisher.Mono.subscribe(Mono.java:4490) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.MonoZip.subscribe(MonoZip.java:129) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.Mono.subscribe(Mono.java:4490) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.MonoIgnorePublisher.subscribe(MonoIgnorePublisher.java:57) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.InternalMonoOperator.subscribe(InternalMonoOperator.java:64) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.subscribeNext(MonoIgnoreThen.java:240) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.onComplete(MonoIgnoreThen.java:203) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.FluxFilter$FilterSubscriber.onComplete(FluxFilter.java:166) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.Operators.complete(Operators.java:137) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.MonoEmpty.subscribe(MonoEmpty.java:46) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.Mono.subscribe(Mono.java:4490) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.subscribeNext(MonoIgnoreThen.java:263) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.MonoIgnoreThen.subscribe(MonoIgnoreThen.java:51) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.Mono.subscribe(Mono.java:4490) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.netty.http.server.HttpServerOperations.lambda$withWebsocketSupport$15(HttpServerOperations.java:893) ~[reactor-netty-http-1.0.27.jar:1.0.27]
+	at reactor.core.publisher.FluxDoOnEach$DoOnEachSubscriber.onComplete(FluxDoOnEach.java:214) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.Operators.complete(Operators.java:137) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.MonoEmpty.subscribe(MonoEmpty.java:46) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.InternalMonoOperator.subscribe(InternalMonoOperator.java:64) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.MonoDefer.subscribe(MonoDefer.java:52) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.subscribeNext(MonoIgnoreThen.java:240) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.onComplete(MonoIgnoreThen.java:203) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.MonoIgnoreElements$IgnoreElementsSubscriber.onComplete(MonoIgnoreElements.java:89) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.FluxConcatArray$ConcatArraySubscriber.onComplete(FluxConcatArray.java:230) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.FluxConcatArray.subscribe(FluxConcatArray.java:78) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.Mono.subscribe(Mono.java:4490) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.subscribeNext(MonoIgnoreThen.java:263) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.MonoIgnoreThen.subscribe(MonoIgnoreThen.java:51) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.Mono.subscribe(Mono.java:4490) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.FluxFlatMap.trySubscribeScalarMap(FluxFlatMap.java:203) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.MonoFlatMap.subscribeOrReturn(MonoFlatMap.java:53) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.Mono.subscribe(Mono.java:4475) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.subscribeNext(MonoIgnoreThen.java:263) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.MonoIgnoreThen.subscribe(MonoIgnoreThen.java:51) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.MonoFlatMap$FlatMapMain.onNext(MonoFlatMap.java:157) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.FluxSwitchIfEmpty$SwitchIfEmptySubscriber.onNext(FluxSwitchIfEmpty.java:74) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.MonoNext$NextSubscriber.onNext(MonoNext.java:82) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.FluxConcatMap$ConcatMapImmediate.innerNext(FluxConcatMap.java:282) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.FluxConcatMap$ConcatMapInner.onNext(FluxConcatMap.java:863) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.onNext(FluxMapFuseable.java:129) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.Operators$ScalarSubscription.request(Operators.java:2400) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.request(FluxMapFuseable.java:171) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.Operators$MultiSubscriptionSubscriber.set(Operators.java:2196) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.Operators$MultiSubscriptionSubscriber.onSubscribe(Operators.java:2070) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.onSubscribe(FluxMapFuseable.java:96) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.MonoJust.subscribe(MonoJust.java:55) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.Mono.subscribe(Mono.java:4490) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.FluxConcatMap$ConcatMapImmediate.drain(FluxConcatMap.java:451) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.FluxConcatMap$ConcatMapImmediate.onSubscribe(FluxConcatMap.java:219) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.FluxIterable.subscribe(FluxIterable.java:201) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.FluxIterable.subscribe(FluxIterable.java:83) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.InternalMonoOperator.subscribe(InternalMonoOperator.java:64) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.MonoDefer.subscribe(MonoDefer.java:52) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.Mono.subscribe(Mono.java:4490) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.subscribeNext(MonoIgnoreThen.java:263) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.MonoIgnoreThen.subscribe(MonoIgnoreThen.java:51) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.InternalMonoOperator.subscribe(InternalMonoOperator.java:64) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.core.publisher.MonoDeferContextual.subscribe(MonoDeferContextual.java:55) ~[reactor-core-3.4.26.jar:3.4.26]
+	at reactor.netty.http.server.HttpServer$HttpServerHandle.onStateChange(HttpServer.java:1002) ~[reactor-netty-http-1.0.27.jar:1.0.27]
+	at reactor.netty.ReactorNetty$CompositeConnectionObserver.onStateChange(ReactorNetty.java:707) ~[reactor-netty-core-1.0.27.jar:1.0.27]
+	at reactor.netty.transport.ServerTransport$ChildObserver.onStateChange(ServerTransport.java:477) ~[reactor-netty-core-1.0.27.jar:1.0.27]
+	at reactor.netty.http.server.HttpServerOperations.onInboundNext(HttpServerOperations.java:593) ~[reactor-netty-http-1.0.27.jar:1.0.27]
+	at reactor.netty.channel.ChannelOperationsHandler.channelRead(ChannelOperationsHandler.java:113) ~[reactor-netty-core-1.0.27.jar:1.0.27]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+	at reactor.netty.http.server.HttpTrafficHandler.channelRead(HttpTrafficHandler.java:223) ~[reactor-netty-http-1.0.27.jar:1.0.27]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:436) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:346) ~[netty-codec-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:318) ~[netty-codec-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:251) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.87.Final.jar:4.1.87.Final]
+	at java.base/java.lang.Thread.run(Thread.java:829) ~[na:na]
+
+2023-06-08 16:42:55.730  INFO 396 --- [main] r.s.d.g.m.streaming.rx.impl.Application  : Starting Application using Java 11.0.18 on DESKTOP-5CAN66E with PID 396 (D:\Skillbox\Diplom2\Code\microservice-streaming-rx\impl\target\classes started by CronyPest in D:\Skillbox\Diplom2\Code\microservice-streaming-rx)
+2023-06-08 16:42:55.732  INFO 396 --- [main] r.s.d.g.m.streaming.rx.impl.Application  : The following 1 profile is active: "local"
+2023-06-08 16:42:56.725  INFO 396 --- [main] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port 8080
+2023-06-08 16:42:56.738  INFO 396 --- [main] r.s.d.g.m.streaming.rx.impl.Application  : Started Application in 1.388 seconds (JVM running for 1.996)
+2023-06-08 16:43:20.213  INFO 17044 --- [main] r.s.d.g.m.streaming.rx.impl.Application  : Starting Application using Java 11.0.18 on DESKTOP-5CAN66E with PID 17044 (D:\Skillbox\Diplom2\Code\microservice-streaming-rx\impl\target\classes started by CronyPest in D:\Skillbox\Diplom2\Code\microservice-streaming-rx)
+2023-06-08 16:43:20.215  INFO 17044 --- [main] r.s.d.g.m.streaming.rx.impl.Application  : The following 1 profile is active: "local"
+2023-06-08 16:43:21.291  INFO 17044 --- [main] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port 8080
+2023-06-08 16:43:21.309  INFO 17044 --- [main] r.s.d.g.m.streaming.rx.impl.Application  : Started Application in 1.447 seconds (JVM running for 2.016)
+2023-06-08 16:43:27.226  INFO 17044 --- [reactor-http-nio-2] reactor.Mono.IgnorePublisher.2           : onSubscribe(MonoIgnoreElements.IgnoreElementsSubscriber)
+2023-06-08 16:43:27.229  INFO 17044 --- [reactor-http-nio-2] reactor.Mono.IgnorePublisher.2           : request(unbounded)
+2023-06-08 16:43:27.229  INFO 17044 --- [reactor-http-nio-2] r.s.d.g.m.s.r.i.w.StreamingHandler       : Session opened with: 7349e1bd
+2023-06-08 16:43:36.067  INFO 17044 --- [reactor-http-nio-2] reactor.Mono.IgnorePublisher.2           : onComplete()
+2023-06-08 16:44:05.869  INFO 17044 --- [reactor-http-nio-3] reactor.Mono.IgnorePublisher.4           : onSubscribe(MonoIgnoreElements.IgnoreElementsSubscriber)
+2023-06-08 16:44:05.869  INFO 17044 --- [reactor-http-nio-3] reactor.Mono.IgnorePublisher.4           : request(unbounded)
+2023-06-08 16:44:05.869  INFO 17044 --- [reactor-http-nio-3] r.s.d.g.m.s.r.i.w.StreamingHandler       : Session opened with: 36afe1ca
+2023-06-08 16:44:13.307  INFO 17044 --- [reactor-http-nio-3] reactor.Mono.IgnorePublisher.4           : onComplete()
+2023-06-08 16:44:13.996  INFO 17044 --- [reactor-http-nio-4] reactor.Mono.IgnorePublisher.6           : onSubscribe(MonoIgnoreElements.IgnoreElementsSubscriber)
+2023-06-08 16:44:13.996  INFO 17044 --- [reactor-http-nio-4] reactor.Mono.IgnorePublisher.6           : request(unbounded)
+2023-06-08 16:44:13.996  INFO 17044 --- [reactor-http-nio-4] r.s.d.g.m.s.r.i.w.StreamingHandler       : Session opened with: 201a03d9
+2023-06-08 16:44:23.476  INFO 17044 --- [reactor-http-nio-4] reactor.Mono.IgnorePublisher.6           : onComplete()
+2023-06-08 16:46:41.308  INFO 4940 --- [main] r.s.d.g.m.streaming.rx.impl.Application  : Starting Application using Java 11.0.18 on DESKTOP-5CAN66E with PID 4940 (D:\Skillbox\Diplom2\Code\microservice-streaming-rx\impl\target\classes started by CronyPest in D:\Skillbox\Diplom2\Code\microservice-streaming-rx)
+2023-06-08 16:46:41.310  INFO 4940 --- [main] r.s.d.g.m.streaming.rx.impl.Application  : The following 1 profile is active: "local"
+2023-06-08 16:46:42.253  INFO 4940 --- [main] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port 8080
+2023-06-08 16:46:42.266  INFO 4940 --- [main] r.s.d.g.m.streaming.rx.impl.Application  : Started Application in 1.336 seconds (JVM running for 1.981)
+2023-06-08 16:46:54.593  INFO 4940 --- [reactor-http-nio-2] reactor.Mono.IgnorePublisher.2           : onSubscribe(MonoIgnoreElements.IgnoreElementsSubscriber)
+2023-06-08 16:46:54.595  INFO 4940 --- [reactor-http-nio-2] reactor.Mono.IgnorePublisher.2           : request(unbounded)
+2023-06-08 16:46:54.596  INFO 4940 --- [reactor-http-nio-2] r.s.d.g.m.s.r.i.w.StreamingHandler       : Session opened with: 66fb8178
+2023-06-08 16:47:00.497  INFO 4940 --- [reactor-http-nio-2] r.s.d.g.m.s.r.i.w.StreamingHandler       : Session close with: 66fb8178
+2023-06-08 16:47:00.498  INFO 4940 --- [reactor-http-nio-2] reactor.Mono.IgnorePublisher.2           : onComplete()
+2023-06-08 16:47:10.768  INFO 4940 --- [reactor-http-nio-3] reactor.Mono.IgnorePublisher.4           : onSubscribe(MonoIgnoreElements.IgnoreElementsSubscriber)
+2023-06-08 16:47:10.768  INFO 4940 --- [reactor-http-nio-3] reactor.Mono.IgnorePublisher.4           : request(unbounded)
+2023-06-08 16:47:10.768  INFO 4940 --- [reactor-http-nio-3] r.s.d.g.m.s.r.i.w.StreamingHandler       : Session opened with: 252d6054
+2023-06-08 16:47:14.056  INFO 4940 --- [reactor-http-nio-3] r.s.d.g.m.s.r.i.w.StreamingHandler       : Session close with: 252d6054
+2023-06-08 16:47:14.056  INFO 4940 --- [reactor-http-nio-3] reactor.Mono.IgnorePublisher.4           : onComplete()
+2023-06-08 16:47:14.522  INFO 4940 --- [reactor-http-nio-4] reactor.Mono.IgnorePublisher.6           : onSubscribe(MonoIgnoreElements.IgnoreElementsSubscriber)
+2023-06-08 16:47:14.522  INFO 4940 --- [reactor-http-nio-4] reactor.Mono.IgnorePublisher.6           : request(unbounded)
+2023-06-08 16:47:14.523  INFO 4940 --- [reactor-http-nio-4] r.s.d.g.m.s.r.i.w.StreamingHandler       : Session opened with: 2b78f17a
+2023-06-08 16:47:20.473  INFO 4940 --- [reactor-http-nio-4] r.s.d.g.m.s.r.i.w.StreamingHandler       : Session close with: 2b78f17a
+2023-06-08 16:47:20.473  INFO 4940 --- [reactor-http-nio-4] reactor.Mono.IgnorePublisher.6           : onComplete()
+2023-06-08 16:47:20.950  INFO 4940 --- [reactor-http-nio-5] reactor.Mono.IgnorePublisher.8           : onSubscribe(MonoIgnoreElements.IgnoreElementsSubscriber)
+2023-06-08 16:47:20.950  INFO 4940 --- [reactor-http-nio-5] reactor.Mono.IgnorePublisher.8           : request(unbounded)
+2023-06-08 16:47:20.950  INFO 4940 --- [reactor-http-nio-5] r.s.d.g.m.s.r.i.w.StreamingHandler       : Session opened with: 205461ea
+2023-06-08 16:49:52.892  INFO 4940 --- [reactor-http-nio-5] r.s.d.g.m.s.r.i.w.StreamingHandler       : Session close with: 205461ea
+2023-06-08 16:49:52.893  INFO 4940 --- [reactor-http-nio-5] reactor.Mono.IgnorePublisher.8           : onComplete()
+2023-06-08 17:12:43.421  INFO 10772 --- [main] r.s.d.g.m.streaming.rx.impl.Application  : Starting Application using Java 11.0.18 on DESKTOP-5CAN66E with PID 10772 (D:\Skillbox\Diplom2\Code\microservice-streaming-rx\impl\target\classes started by CronyPest in D:\Skillbox\Diplom2\Code\microservice-streaming-rx)
+2023-06-08 17:12:43.423  INFO 10772 --- [main] r.s.d.g.m.streaming.rx.impl.Application  : The following 1 profile is active: "local"
+2023-06-08 17:12:44.404  INFO 10772 --- [main] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port 8080
+2023-06-08 17:12:44.420  INFO 10772 --- [main] r.s.d.g.m.streaming.rx.impl.Application  : Started Application in 1.378 seconds (JVM running for 2.018)
+2023-06-08 17:12:56.064  INFO 10772 --- [reactor-http-nio-2] reactor.Mono.IgnorePublisher.2           : onSubscribe(MonoIgnoreElements.IgnoreElementsSubscriber)
+2023-06-08 17:12:56.066  INFO 10772 --- [reactor-http-nio-2] reactor.Mono.IgnorePublisher.2           : request(unbounded)
+2023-06-08 17:12:56.066  INFO 10772 --- [reactor-http-nio-2] r.s.d.g.m.s.r.i.w.StreamingHandler       : Session opened with: 9f53ba2
+2023-06-08 17:13:42.385  INFO 9148 --- [main] r.s.d.g.m.streaming.rx.impl.Application  : Starting Application using Java 11.0.18 on DESKTOP-5CAN66E with PID 9148 (D:\Skillbox\Diplom2\Code\microservice-streaming-rx\impl\target\classes started by CronyPest in D:\Skillbox\Diplom2\Code\microservice-streaming-rx)
+2023-06-08 17:13:42.387  INFO 9148 --- [main] r.s.d.g.m.streaming.rx.impl.Application  : The following 1 profile is active: "local"
+2023-06-08 17:13:43.332  INFO 9148 --- [main] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port 8080
+2023-06-08 17:13:43.346  INFO 9148 --- [main] r.s.d.g.m.streaming.rx.impl.Application  : Started Application in 1.326 seconds (JVM running for 1.98)
+2023-06-08 17:13:51.732  INFO 9148 --- [reactor-http-nio-2] reactor.Mono.IgnorePublisher.2           : onSubscribe(MonoIgnoreElements.IgnoreElementsSubscriber)
+2023-06-08 17:13:51.735  INFO 9148 --- [reactor-http-nio-2] reactor.Mono.IgnorePublisher.2           : request(unbounded)
+2023-06-08 17:13:51.736  INFO 9148 --- [reactor-http-nio-2] r.s.d.g.m.s.r.i.w.StreamingHandler       : Session opened with: 6b6fff2
+2023-06-08 17:29:03.506  INFO 1824 --- [main] r.s.d.g.m.streaming.rx.impl.Application  : Starting Application using Java 11.0.18 on DESKTOP-5CAN66E with PID 1824 (D:\Skillbox\Diplom2\Code\microservice-streaming-rx\impl\target\classes started by CronyPest in D:\Skillbox\Diplom2\Code\microservice-streaming-rx)
+2023-06-08 17:29:03.509  INFO 1824 --- [main] r.s.d.g.m.streaming.rx.impl.Application  : The following 1 profile is active: "local"
+2023-06-08 17:29:04.348  INFO 1824 --- [main] ctiveUserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 034f5419-de22-428e-a557-129b3b65406f
+
+2023-06-08 17:29:04.592  INFO 1824 --- [main] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port 8080
+2023-06-08 17:29:04.600  INFO 1824 --- [main] r.s.d.g.m.streaming.rx.impl.Application  : Started Application in 1.499 seconds (JVM running for 2.153)
